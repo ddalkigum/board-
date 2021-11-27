@@ -1,0 +1,37 @@
+# File system
+.idea
+.DS_Store
+*.swp
+*~
+
+# Node
+/node_modules
+lerna-debug.log
+npm-debug.log
+npm-debug.log*
+yarn-error.log*
+junit.xml
+package-lock.json
+
+# VSCode
+.vscode
+.eslintcache
+
+# .env
+.env
+.env.dev
+.env.local
+
+# DB
+*.db
+
+# Logging
+nohup.out
+**.log
+**.log.**
+logs/
+
+# Testing
+coverage 
+dist/
+node_modules

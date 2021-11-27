@@ -1,0 +1,49 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": "airbnb-base",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+      "ecmaVersion": 5
+  },
+  "plugins": [
+      "prettier",
+      "@typescript-eslint"
+  ],
+  "ignorePatterns": ["node_modules", "**/*.test.*"],
+  "rules": {
+      "no-sequences": 0,
+      "import/no-unresolved": 0,
+      "import/extensions": 0,
+      "no-undef": 0,
+      "no-redeclare": 0,
+      "max-len": 0,
+      "no-useless-escape": 0,
+      "radix": 0,
+      "no-unused-vars": 0,
+      "consistent-return": 0,
+      "no-unused-expressions": 0,
+      "no-use-before-define":0,
+      "array-callback-return" :0,
+      "import/prefer-default-export":0,
+      "no-return-await":0,
+      "object-curly-newline": 0,
+      "arrow-body-style": 0,
+      "prefer-template": 0,
+      "max-classes-per-file": 0,
+      "lines-between-class-members": 0,
+      "no-unneeded-ternary": 0,
+      "camelcase": 0,
+      "dot-notation": 0,
+      "newline-per-chained-call": 0,
+      "no-param-reassign": 0,
+      "no-shadow": 0,
+      "no-plusplus": 0,
+      "no-await-in-loop": 0,
+      "class-methods-use-this": 0,
+      "operator-linebreak": 0,
+      "no-trailing-spaces": 0
+  }
+}
